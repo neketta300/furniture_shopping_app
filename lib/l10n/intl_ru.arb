@@ -12,5 +12,7 @@
   "hello": "Hello !",
   "name": "Name",
   "welcome": "WELCOME",
-  "confirmPassword": "Confirm Password"
+  "confirmPassword": "Confirm Password",
+  "alreadyHaveAccount": "Already have account? ",
+  "signIn": "SIGN IN"
 }

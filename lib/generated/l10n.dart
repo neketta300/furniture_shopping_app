@@ -148,6 +148,21 @@ class S {
       args: [],
     );
   }
+
+  /// `Already have account? `
+  String get alreadyHaveAccount {
+    return Intl.message(
+      'Already have account? ',
+      name: 'alreadyHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SIGN IN`
+  String get signIn {
+    return Intl.message('SIGN IN', name: 'signIn', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
