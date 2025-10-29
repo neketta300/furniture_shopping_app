@@ -160,14 +160,14 @@ class SignupScreen extends StatelessWidget {
                       Center(
                         child: RichText(
                           text: TextSpan(
-                            text: 'Already have account? ',
+                            text: S.of(context).alreadyHaveAccount,
                             style: GoogleFonts.nunitoSans(
                               fontWeight: FontWeight.w600,
                               color: Color(0xff808080),
                             ),
                             children: [
                               TextSpan(
-                                text: 'SIGN IN',
+                                text: S.of(context).signIn,
                                 style: GoogleFonts.nunitoSans(
                                   color: Color(0xff303030),
                                   fontWeight: FontWeight.bold,

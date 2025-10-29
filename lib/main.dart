@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:furniture_shopping_app/features/signup/view/signup_screen.dart';
 import 'package:furniture_shopping_app/generated/l10n.dart';
 import 'package:furniture_shopping_app/ui/responsive/responsive.dart';
 import 'package:furniture_shopping_app/ui/theme/theme.dart';
 import 'package:provider/provider.dart';
 
 import 'features/onboarding/view/onboarding_screen.dart';
+import 'features/signin/view/signin_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Furniture Shop',
         theme: themeData,
-        home: OnboardingScreen(),
+        home: SignupScreen(),
         debugShowCheckedModeBanner: false,
       ),
     );
