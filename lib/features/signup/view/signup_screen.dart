@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:furniture_shopping_app/ui/theme/theme.dart';
@@ -8,6 +9,7 @@ import '../../../generated/l10n.dart';
 import '../../../ui/responsive/responsive.dart';
 import '../../../ui/widgets/widgets.dart';
 
+@RoutePage()
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
 
