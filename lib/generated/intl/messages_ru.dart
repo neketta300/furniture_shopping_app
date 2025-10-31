@@ -25,6 +25,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
       "Already have account? ",
     ),
+    "beautiful": MessageLookupByLibrary.simpleMessage("BEAUTIFUL"),
+    "blackSimpleLamp": MessageLookupByLibrary.simpleMessage(
+      "Black Simple Lamp",
+    ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm Password"),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password"),
@@ -32,9 +36,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "hello": MessageLookupByLibrary.simpleMessage("Hello !"),
     "homeBeautiful": MessageLookupByLibrary.simpleMessage("HOME BEAUTIFUL"),
     "logIn": MessageLookupByLibrary.simpleMessage("Log in"),
+    "makeHome": MessageLookupByLibrary.simpleMessage("Make home"),
     "makeYour": MessageLookupByLibrary.simpleMessage("MAKE YOUR"),
     "name": MessageLookupByLibrary.simpleMessage("Name"),
     "password": MessageLookupByLibrary.simpleMessage("Password"),
+    "popular": MessageLookupByLibrary.simpleMessage("Popular"),
     "signIn": MessageLookupByLibrary.simpleMessage("SIGN IN"),
     "signUp": MessageLookupByLibrary.simpleMessage("SIGN UP"),
     "theBestSimplePlace": MessageLookupByLibrary.simpleMessage(

@@ -163,6 +163,31 @@ class S {
   String get signIn {
     return Intl.message('SIGN IN', name: 'signIn', desc: '', args: []);
   }
+
+  /// `Popular`
+  String get popular {
+    return Intl.message('Popular', name: 'popular', desc: '', args: []);
+  }
+
+  /// `Make home`
+  String get makeHome {
+    return Intl.message('Make home', name: 'makeHome', desc: '', args: []);
+  }
+
+  /// `BEAUTIFUL`
+  String get beautiful {
+    return Intl.message('BEAUTIFUL', name: 'beautiful', desc: '', args: []);
+  }
+
+  /// `Black Simple Lamp`
+  String get blackSimpleLamp {
+    return Intl.message(
+      'Black Simple Lamp',
+      name: 'blackSimpleLamp',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
