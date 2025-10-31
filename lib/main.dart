@@ -1,28 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:furniture_shopping_app/features/signup/view/signup_screen.dart';
+import 'package:furniture_shopping_app/features/home/view/home_screen.dart';
 import 'package:furniture_shopping_app/generated/l10n.dart';
+import 'package:furniture_shopping_app/router/router.dart';
 import 'package:furniture_shopping_app/ui/responsive/responsive.dart';
 import 'package:furniture_shopping_app/ui/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-import 'features/onboarding/view/onboarding_screen.dart';
-import 'features/signin/view/signin_screen.dart';
-
 void main() {
-  runApp(const MyApp());
+  runApp(const FurnitureApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FurnitureApp extends StatefulWidget {
+  const FurnitureApp({super.key});
 
+  @override
+  State<FurnitureApp> createState() => _FurnitureAppState();
+}
+
+class _FurnitureAppState extends State<FurnitureApp> {
+  final _router = AppRouter();
   @override
   Widget build(BuildContext context) {
     return Provider<Responsive>(
       create: (BuildContext context) {
         return Responsive(context);
       },
-      child: MaterialApp(
+      child: MaterialApp.router(
         localizationsDelegates: [
           S.delegate,
           GlobalMaterialLocalizations.delegate,
@@ -32,7 +36,7 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Furniture Shop',
         theme: themeData,
-        home: SignupScreen(),
+        routerConfig: _router.config(),
         debugShowCheckedModeBanner: false,
       ),
     );

@@ -14,5 +14,9 @@
   "welcome": "WELCOME",
   "confirmPassword": "Confirm Password",
   "alreadyHaveAccount": "Already have account? ",
-  "signIn": "SIGN IN"
+  "signIn": "SIGN IN",
+  "popular": "Popular",
+  "makeHome": "Make home",
+  "beautiful": "BEAUTIFUL",
+  "blackSimpleLamp": "Black Simple Lamp"
 }

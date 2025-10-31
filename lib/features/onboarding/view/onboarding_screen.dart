@@ -1,3 +1,4 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:furniture_shopping_app/generated/l10n.dart';
 import 'package:furniture_shopping_app/ui/theme/theme.dart';
@@ -5,6 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../../../ui/responsive/responsive.dart';
 
+@RoutePage()
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
 
